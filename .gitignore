@@ -1,0 +1,127 @@
+# Maven build
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# AI assistants - rules, configs, caches and local traces
+
+# Context
+/doc
+
+# Cursor
+.cursorrules
+.cursorrules.*
+.cursor/
+.cursorignore
+
+# Windsurf
+.windsurfrules
+.windsurf/
+
+# RooCode / Roo
+.roorules
+.roo/
+.clinerules
+.clinerules.*
+
+# Cline
+.cline/
+Cline/
+
+# Aider
+.aider*
+.aider/
+
+# Continue.dev
+.continue/
+.continueignore
+
+# Augment
+.augment/
+.augmentignore
+
+# GitHub Copilot
+.github/copilot-instructions.md
+.copilot/
+COPILOT.md
+
+# Anthropic/Claude
+.claude/
+CLAUDE.md
+.claudeignore
+
+# Google Gemini
+.gemini/
+GEMINI.md
+.geminiignore
+
+# OpenCode
+.opencode/
+opencode.json
+opencode.jsonc
+.opencodeignore
+
+# OpenAI/others
+.openai/
+
+# General AI local artifacts/caches (not generated docs)
+.ai/
+ai/
+ai-notes/
+ai_notes/
+*.ai
+*.aichat
+*.aid
+ai-*.md
+AI-*.md
+ai_*.md
+assistant-*.md
+.thread.md
+.rules
+.agent.md
+agents.md
+AGENTS.md
+
+# MCP local configs
+.mcp.json
+.mcp.*.json
+
+# Otros asistentes y herramientas IA
+.trae/
+.kiro/
+.cody/
+.codyignore
+.amazonq/
+.codeium/
+.devin/
+.sourceman/
+.supermaven/
+
+# Rules y prompts genéricos
+*.rules
+.prompts/
+*.prompt.md
+
+# Env/secrets
+.env
+.env.*
+!.env.example
